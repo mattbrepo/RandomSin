@@ -22,6 +22,7 @@ $$ f(i) = \sin \frac{s}{(i / 10000000)} $$
 
 where _s_ is the seed and _i_ is the 1-based index of the randomized array.
 
+
 ### Histograms
 Therefore, I performed a bit of analysis to determine how good this function is. First, I compared the histograms of the "standard" Python random function and of the "sine" random function:
 
